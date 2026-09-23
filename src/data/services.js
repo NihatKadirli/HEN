@@ -1,0 +1,10 @@
+export const services = [
+  { id: 'ev', title: 'Ev Temizliği', icon: 'House', description: 'Günün yorgunluğunu geride bırakın. Size tertemiz bir ev kalsın.', details: 'Odalar, mutfak, banyo, ulaşılabilir yüzeyler ve zeminler için ihtiyacınıza göre planlanan kapsamlı temizlik.', tag: 'En çok tercih edilen' },
+  { id: 'ofis', title: 'Ofis Temizliği', icon: 'BriefcaseBusiness', description: 'Daha ferah bir çalışma alanı, daha verimli bir gün.', details: 'Çalışma masaları, ortak alanlar, mutfak, lavabolar ve zeminler; iş düzeninize uygun saatlerde temizlenir.' },
+  { id: 'bina', title: 'Bina / Apartman Temizliği', icon: 'Building2', description: 'Ortak alanlarınızda ilk adımdan itibaren hissedilen temizlik.', details: 'Bina girişi, merdivenler, korkuluklar ve asansör gibi ortak alanlar için düzenli veya tek seferlik hizmet.' },
+  { id: 'insaat', title: 'İnşaat Sonrası Temizlik', icon: 'PaintRoller', description: 'Tadilat bitti. Şimdi yeni alanınızın keyfini çıkarma zamanı.', details: 'İnce inşaat tozu, yüzeye uygun boya ve harç kalıntısı temizliği. Kapsam ve ekip ihtiyacı ön görüşmede belirlenir.' },
+  { id: 'bos-daire', title: 'Boş Daire Temizliği', icon: 'KeyRound', description: 'Yeni anılarınız için özenle hazırlanmış, temiz bir başlangıç.', details: 'Boş dairelerde dolap içleri, mutfak, banyo, kapılar ve zeminlerin detaylı temizliği.' },
+  { id: 'tasinma', title: 'Taşınma Temizliği', icon: 'PackageOpen', description: 'Siz yeni hayatınıza odaklanın, temizliği bize bırakın.', details: 'Taşınma öncesinde veya sonrasında teslim takviminize uygun, alana özel temizlik planı.' },
+  { id: 'detayli', title: 'Detaylı Temizlik', icon: 'Sparkles', description: 'Küçük detaylara büyük özen. Köşeden köşeye ferahlık.', details: 'Sık kullanılan yüzeylerin yanı sıra ulaşılabilir zor köşeler ve biriken kirler için ayrıntılı bakım.' },
+  { id: 'cam', title: 'Cam Temizliği', icon: 'PanelsTopLeft', description: 'İçeri daha çok ışık, dışarı daha berrak bir bakış.', details: 'Güvenle erişilebilir camlar, çerçeveler ve pervazlar. Yüksekte çalışma gereksinimi ayrıca değerlendirilir.' },
+];

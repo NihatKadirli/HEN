@@ -1,0 +1,2 @@
+import { stats } from '../data/stats';
+export default function Stats() { return <section className="stats-section" aria-label="Örnek hizmet istatistikleri"><div className="container"><div className="stats-grid">{stats.map(stat => <div key={stat.label}><strong>{stat.value}</strong><span>{stat.label}</span></div>)}</div><p className="sample-note">Tanıtım amaçlı örnek değerlerdir; doğrulanmış şirket verileriyle güncellenecektir.</p></div></section>; }

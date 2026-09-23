@@ -1,0 +1,4 @@
+import BeforeAfterSlider from './BeforeAfterSlider';
+import SectionTitle from './SectionTitle';
+import { gallery } from '../data/gallery';
+export default function BeforeAfterGallery() { return <section id="oncesi-sonrasi" className="section gallery-section"><div className="container"><SectionTitle eyebrow="GÖZLE GÖRÜLÜR BİR FARK" title={<>Aynı alan.<br/><span className="muted-heading">Bambaşka bir his.</span></>} description="Küçük detaylar, büyük bir değişim. Farkı kendiniz keşfedin."/><div className="gallery-grid">{gallery.map(item => <article className="gallery-card" key={item.id} data-reveal><BeforeAfterSlider {...item} label={item.category}/><div className="gallery-card-copy"><span>{item.category}</span><h3>{item.title}</h3></div></article>)}</div><p className="sample-note">Görseller temizlik farkını anlatmak için yapay zekâ ile hazırlanmış temsili örneklerdir.</p></div></section>; }

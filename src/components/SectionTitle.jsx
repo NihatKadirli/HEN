@@ -1,0 +1,1 @@
+export default function SectionTitle({ eyebrow, title, description, light = false, children }) { return <div className={`section-heading ${light ? 'heading-light' : ''}`}><div><span className="eyebrow"><span className="small-line"/>{eyebrow}</span><h2>{title}</h2>{description && <p>{description}</p>}</div>{children}</div>; }
